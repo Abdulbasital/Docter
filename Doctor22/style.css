@@ -1,0 +1,219 @@
+/* Start Global Rules */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+@media (min-width: 300px) {
+  .icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 225px;
+    margin-right: -23px;
+  }
+  .title {
+    margin-left: -70px;
+  }
+  nav .ic {
+    margin-left: -70px;
+  }
+  .se {
+    height: 180px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    margin-top: 6px;
+  }
+  .ti {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: -30px;
+  }
+}
+/* small */
+@media (min-width: 768px) {
+  /* .container {
+    width: 750px;
+  } */
+  .icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 225px;
+    margin-right: 15px;
+  }
+  .title {
+    margin-left: 0px;
+  }
+  nav .ic {
+    margin-left: -25px;
+  }
+  .links {
+    margin-left: 70px;
+  }
+  .se {
+    height: 80px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: -65px;
+  }
+  .ti {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 40%;
+  }
+}
+
+/* medium */
+@media (min-width: 992px) {
+  /* .container {
+    width: 970px;
+  } */
+  .icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    width: 278px;
+    margin-right: 15px;
+    text-align: center;
+  }
+  .se {
+    height: 80px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .ti {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+}
+/* End Global Rules */
+
+nav {
+  background-color: blue;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+.i {
+  margin-left: 100px;
+  padding-right: 20px;
+}
+.ii {
+  padding-right: 20px;
+}
+.iii {
+  padding-right: 20px;
+}
+.sea {
+  position: absolute;
+  right: 20%;
+}
+header {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header a {
+  text-decoration: none;
+  color: blue;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+.title a {
+  margin-left: 100px;
+}
+header .icon {
+  position: absolute;
+  right: 5%;
+}
+section {
+  height: 60px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 15px;
+}
+section ul {
+  display: flex;
+}
+section ul li {
+  list-style: none;
+  padding-right: 10px;
+}
+section ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.button {
+  position: absolute;
+  right: 13%;
+}
+button {
+  background-color: blue;
+  padding: 6px;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+main {
+  background-image: url(do.jpeg);
+  background-repeat: no-repeat;
+  height: 630px;
+  margin-left: 25px;
+  position: relative;
+}
+/* .ti {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 15px;
+} */
+p {
+  color: red;
+  font-size: 19px;
+}
+a:hover {
+  color: red;
+}
+a {
+  transition: all 0.6ms;
+  transition-duration: 1s;
+}
